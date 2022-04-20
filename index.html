@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite Music is here</title>
+    <link rel="icon" type="image/x-icon" href="spotify-brands.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+    <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+   </nav> 
+   <div class="container">
+       <div class="songlist">
+        <h2> Best Of Musix - No Copyright Sound</h2>
+       <div class="songItemContainer">
+        <div class="songItem">
+            <img alt="1">
+            <span class="songname">Katy Perry Harleys In Hawaii</span>
+            <span class="songlistplay"><span class="timestamp">05:34<i id="0" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songname">DJ Snake Let Me Love You</span>
+            <span class="songlistplay"><span class="timestamp">04:23<i id="1" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songname">Fifth Harmony Worth It</span>
+            <span class="songlistplay"><span class="timestamp">04:54<i id="2" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songname">Luis Fonsi Despacito</span>
+            <span class="songlistplay"><span class="timestamp">03:34<i id="3" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songname">Taylor Swift Love Story</span>
+            <span class="songlistplay"><span class="timestamp">03:54<i id="4" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img alt="1">
+            <span class="songname">Akon Smack That</span>
+            <span class="songlistplay"><span class="timestamp">04:44<i id="5" class="songItemPlay fa-regular fa-circle-play"></i></span></span>
+        </div>
+        </div>
+       </div>
+           <div class="songbanner"></div>  
+   </div>
+   <div class="bottom">
+       
+       <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+       <div class="icons">
+           <!-- <!fontawesom icons -->
+           <i class="fa-2x fa-solid fa-backward" id="previous"></i>
+           <i class=" fa-2x fa-regular fa-circle-play" id="masterPlay"></i>
+           <i class="fa-2x fa-solid fa-forward" id="next"></i>
+           <div class="songinfo">
+               <img src="playing.gif"  width="42px" alt="" id="gif"> <span id="masterSongName"></span>Katy Perry Harleys In Hawaii
+               
+           </div>
+       </div>
+   </div>
+   <script src="https://kit.fontawesome.com/cfa71837ec.js" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</body>
+</html>
